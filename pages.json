@@ -1,0 +1,100 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "早上好！张三先生",
+				"navigationStyle": "custom"
+			}
+		}
+	    ,{
+            "path" : "pages/cart/cart",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/member/member",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/news/news",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/goods/goods",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品列表"
+            }
+            
+        }
+        ,{
+            "path" : "pages/uni-ui/uni-ui",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "项目实战",
+		"navigationBarBackgroundColor": "#272a3b",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor": "#78bd00",
+		"color": "#ccc",
+		// "midButton": {
+		//            "width": "120px",
+		//            "height": "120px",
+		//            "iconPath": "static/icon/会员.png",
+		//            "iconWidth": "70px",
+		//            "text":"常用"
+		//        },
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/首页.png",
+				"selectedIconPath": "static/icon/首页1.png"
+			},
+			{
+				"text": "资讯",
+				"pagePath": "pages/news/news",
+				"iconPath": "static/icon/咨询.png",
+				"selectedIconPath": "static/icon/资讯1.png"
+				
+			},
+			{
+				"text": "购物车",
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/icon/购物车空.png",
+				"selectedIconPath": "static/icon/购物车满.png"
+			},
+			{
+				"text": "会员",
+				"pagePath": "pages/member/member",
+				"iconPath": "static/icon/会员.png",
+				"selectedIconPath": "static/icon/会员1.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

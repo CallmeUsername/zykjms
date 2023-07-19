@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/member/member",
+    "pages/news/news",
+    "pages/goods/goods",
+    "pages/uni-ui/uni-ui"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "项目实战",
+    "navigationBarBackgroundColor": "#272a3b",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#78bd00",
+    "color": "#ccc",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/首页.png",
+        "selectedIconPath": "static/icon/首页1.png"
+      },
+      {
+        "text": "资讯",
+        "pagePath": "pages/news/news",
+        "iconPath": "static/icon/咨询.png",
+        "selectedIconPath": "static/icon/资讯1.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/icon/购物车空.png",
+        "selectedIconPath": "static/icon/购物车满.png"
+      },
+      {
+        "text": "会员",
+        "pagePath": "pages/member/member",
+        "iconPath": "static/icon/会员.png",
+        "selectedIconPath": "static/icon/会员1.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "tabb": "/components/tab/tabb"
+  }
+}
